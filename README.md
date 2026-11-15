@@ -117,7 +117,6 @@ Verification (Icarus Verilog 12.0; the DAC and comparator in the testbench are b
 - For an ideal chip, a 1% chip and a 3% chip, 12,224 inputs each (a ramp, exact integers, values at the major carries, and random values): zero mismatches against the Python model and against the golden model inside the testbench.
 - N = 1, 2, 4, 8, 12 and 16 with 3,003 inputs each: zero mismatches.
 - Also simulated in Vivado (xsim) for the 1% mismatch chip with 12,224 inputs: the testbench reports PASS (0 mismatches against the golden model, 12,224 done pulses, 0 sample errors), and the codes it wrote match the Python model with 0 mismatches (`results/vivado_console.png`, `results/python_comparison.png`).
-- Directed tests in `tb_extra.v`: normal conversion, `valid` held until the next start, reset in the middle of a conversion, restart by a second start pulse, and start held high.
 - One `done` pulse per conversion, and `sample` low for exactly N cycles per conversion.
 
 ## Files
