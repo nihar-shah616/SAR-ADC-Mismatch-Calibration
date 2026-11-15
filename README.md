@@ -131,8 +131,6 @@ Verification (Icarus Verilog 12.0; the DAC and comparator in the testbench are b
 | `tb_extra.v` | Directed tests (reset, restart, held start, valid and done behaviour) |
 | `verilog_check.py` | Generates test files and cross-checks the Verilog output against the Python model |
 | `results/` | Plots and the example trace |
-| `docs/` | Hand calculations |
-| `requirements.txt` | Python packages |
 
 ## How to run
 
