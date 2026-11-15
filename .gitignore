@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+sim.vvp
+extra.vvp
+weights.txt
+inputs.txt
+codes_verilog.txt
+*.vcd
