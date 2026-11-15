@@ -134,7 +134,7 @@ Verification (Icarus Verilog 12.0; the DAC and comparator in the testbench are b
 
 ## How to run
 
-Python 3 with the packages in `requirements.txt` (`pip install -r requirements.txt`). All random seeds are fixed, so the results are reproducible.
+Python 3 with numpy, matplotlib and scikit-learn (pip install numpy matplotlib scikit-learn). All random seeds are fixed, so the results are reproducible.
 
 ```
 python sar_model.py          # one chip, INL/DNL plot
